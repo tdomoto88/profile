@@ -1,0 +1,93 @@
+.container {
+  width:  700px;
+  margin: 30px auto;
+}
+
+h1 {
+  font-weight: bold;
+  color: #5A2328;
+  font-size: 30px;
+}
+
+h2 {
+  font-weight: bold;
+  color: #5A2328;
+  font-size: 20px;
+}
+
+div {
+  display: block;
+  unicode-bidi: isolate;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; /* if you want the light version */
+  color: #5A2328;
+  background-color: #7A9B76;
+}
+
+i {
+  color: #090302;
+}
+
+.card-white {
+  background-color: rgba(204, 204, 204, 0.8);
+  padding: 20px;
+  box-shadow: 0px 20px 60px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  margin: 30px;
+  text-align: center;
+}
+
+/* CSS for the social media icons */
+.card-white .list-inline li a {
+  color: black; /* Set the default color for the icons */
+  transition: opacity 0.3s ease; /* Add a smooth transition effect */
+}
+
+/* CSS to change opacity on hover */
+.card-white .list-inline li a:hover {
+  opacity: 0.5; /* Set the desired opacity when hovered */
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #000000;
+}
+
+ul.list-inline {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+ul.list-inline li {
+  display: inline-block; /* Display list items inline */
+  margin-right: 10px; /* Add some spacing between items */
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
